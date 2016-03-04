@@ -1,0 +1,57 @@
+/*-- #Mobile (Portrait) ------------------------------------------------------- */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 479px) {
+	#main {width:320px;}
+	
+	/*-- Pages -----------------------------------------------------------------*/
+	.before-content-area{margin:0 -10px 20px;}
+	.before-content-area .bg{padding:30px 10px;}
+	
+	/*-- Testimonials ----------------------------------------------------------*/
+	article.testimonial .featured-thumbnail{float:none; margin-right:0;}
+	
+	
+	/*-- Portfolio -------------------------------------------------------------*/
+	#gallery .portfolio li{width:auto; margin-right:0 !important}
+		#gallery .portfolio li.nomargin{margin-right:0 !important;}
+	#gallery .portfolio li a.image-wrap {height:200px;}
+	/* 1 column portfolio,  2 columns portfolio*/
+	#gallery.one_column .portfolio li a.image-wrap, #gallery.two_columns .portfolio li a.image-wrap {height:157px;}
+	/* 4 columns portfolio*/
+	#gallery.four_columns .portfolio li {width:auto; float:none; margin:0 0 20px !important;}
+		#gallery.four_columns .portfolio li a.image-wrap {height:227px;}
+	/*Gallery*/
+	.grid_gallery .gallery_item {width: auto; float:none; margin:0 0 20px;}
+	/*Slideshow*/
+	.gallery_post .g_item {width:270px;}
+	.slides_container_slideshow {height:161px; width:270px;}
+	/*Audio*/
+	.single-audio-holder .audiojs .scrubber {width:130px;}
+	
+	/*-- Blog ----------------------------------------------------------*/
+	.post-meta .fleft, .post-meta .fright{float:none;}
+	.featured-thumbnail.fleft{width:auto; max-width:none; margin:0 0 20px; float:none;}
+		.featured-thumbnail.fleft img{width:100%;}
+	.comment-meta {display:none;}
+	
+	.pagenavi .first, .pagenavi .next, .pagenavi .prev, .pagenavi .last{display:none;}
+	
+	/*-- 404 -----------------------------------------------------------*/
+	.error404-num {font-size:175px; line-height:175px;}
+	
+	/*-- Widgets ------------------------------------------------------------*/
+	/*Post Cycle */
+	#slides .cycle_item, #slides .item, #slides .testi_item{width:300px;}
+	
+	/*-- Shortcodes ------------------------------------------------------------*/
+	.frame.fleft{max-width:none; float:none; margin-right:0;}
+		.frame.fleft img{width:100%;}
+	.recent-posts.our-team li{width:115px; margin:0 10px 10px 0 !important;}
+		.recent-posts.our-team li.nomargin{margin-right:10px !important;}
+	.recent-posts.solutions li{width:auto; float:none; margin:0 0 20px !important;}
+		.recent-posts.solutions li.nomargin{margin-right:0 !important;}
+	
+	/*-- Forms ----------------------------------------------------------*/
+	#commentform input[type="text"], #commentform textarea, .wpcf7-form textarea, .wpcf7-form input[type="text"]{width:270px;}
+}

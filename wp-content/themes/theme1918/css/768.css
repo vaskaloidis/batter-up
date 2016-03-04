@@ -1,0 +1,92 @@
+/*-- #Tablet (Portrait) ------------------------------------------------- */
+/* Note: Design for a width of 768px */
+
+@media only screen and (max-width: 959px) {
+	/*Images*/
+	.logo img{width:auto;}
+	
+	/*Indents*/
+	
+	h2, h4, p, .tab p{margin-bottom:20px;}
+	.post-holder {margin-bottom:30px;}
+	
+	.tab{padding-right:0px;}
+	#widget-footer, .primary_content_wrap {padding:30px 0;}
+	.pagenavi, #header {padding:30px 0 0;}
+	blockquote{padding:20px;}
+	
+	/*------------------------------------------------------------------*/
+	
+	#main {width:768px;}
+	
+	/*--Header ---------------------------------------------------------*/
+	/* Logo */
+	.logo {padding-left:10px;}
+	/* Nav */
+	nav.primary {padding:37px 10px 0 0;}
+	
+	/*-- Pages ---------------------------------------------------------*/
+	.before-content-area{background-size:100% 1px; margin:0 0 20px;}
+	.before-content-area .bg{padding:30px 0;}
+	.before-content-area .top-box{padding-right:10px;}
+	
+	/*-- Portfolio -----------------------------------------------------*/
+	#gallery .portfolio li{width:206px;}
+	#gallery .portfolio li a.image-wrap {height:153px;}
+	.zoom-icon {background-size:40% auto;}
+	/* 1 column portfolio*/
+	#gallery.one_column .portfolio li a.image-wrap {height:215px; width:370px;}
+	/* 2 columns portfolio*/
+	#gallery.two_columns .portfolio li {width:334px;}
+		#gallery.two_columns .portfolio li a.image-wrap {height:194px;}
+	/* 4 columns portfolio*/
+	#gallery.four_columns .portfolio li {width:142px;}
+		#gallery.four_columns .portfolio li a.image-wrap {height:120px;}
+	.single-portfolio .simplesocial-box .simplesocial-title{float:none; margin:0 0 7px !important;}
+	/*Gallery*/
+	.grid_gallery .gallery_item {width: 194px;}
+	/*Slideshow*/
+	.gallery_post .g_item {width:398px;}
+	.slides_container_slideshow {height:237px; width:398px;}
+	/*Audio*/
+	.single-audio-holder .audiojs .scrubber {width:255px;}
+	
+	/*-- Blog ----------------------------------------------------------*/
+	.featured-thumbnail.fleft{max-width:40%;}
+	.single .featured-thumbnail{display:block;}
+	/*Comments*/
+	.commentlist ul.children {padding:10px 0 0 20px;}
+	
+	/*-- 404 -----------------------------------------------------------*/
+	.error404-num {font-size:240px; line-height:240px;}
+	
+	/*-- Widgets -------------------------------------------------------*/
+	/* Flickr widget */
+	.flickrImages a {width:60px; height:60px;}
+	
+	/* RSS */
+	.rsswidget img, .social-networks img {width:auto;}
+	
+	/*Post Cycle */
+	#slides .cycle_item, #slides .item, #slides .testi_item{width:224px;}
+	
+	/*-- Shortcodes ---------------------------------------------------*/
+	/* Address */
+	.address dt {float:none; width:auto; margin-right:0; margin-bottom:20px;}
+	.address dd {float:none; width:auto;}
+	
+	.frame.fleft{max-width:40%;}
+	
+	.recent-posts.recent-news li{float:left; width:236px;}
+	.recent-posts.our-team li{margin: 0 20px 20px 0 !important; width:120px;}
+	.recent-posts.solutions li{margin:0 20px 20px 0 !important; width:206px;}
+	
+	/*-- Forms ---------------------------------------------------------*/
+	.wpcf7-form .submit-wrap img{width:auto;}
+	#commentform textarea, .wpcf7-form textarea{width:462px;}
+	
+	#back-top {display:none !important;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (min-width: 480px) and (max-width: 959px) {}

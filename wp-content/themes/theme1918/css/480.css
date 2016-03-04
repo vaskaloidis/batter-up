@@ -1,0 +1,81 @@
+/*-- #Mobile (Landscape) --------------------------------------------------- */
+/* Note: Design for a width of 480px */
+
+@media only screen and (max-width: 767px) {
+	#main {width:460px;}
+	
+	/*-- Header ------------------------------------------------------------*/
+	#header{padding-bottom:30px;}
+	
+	/* Logo */
+	.logo {float:none; margin-bottom:20px; padding:0;}
+	
+	/* Menu */
+	nav.primary{float:none; padding:0; margin:0;}
+	.sf-menu{display:none;}
+	.select-menu {display:block !important;}
+	
+	/*-- Pages ------------------------------------------------------------*/
+	.before-content-area{margin:0 -20px 20px;}
+	.before-content-area .bg{padding:30px 20px;}
+	
+	/*-- Portfolio --------------------------------------------------------*/
+	#gallery .portfolio li{width:170px;}
+		#gallery .portfolio li.nomargin{margin-right:20px !important;}
+		#gallery .portfolio li.even{margin-right:0 !important;}
+	#gallery .portfolio li a.image-wrap {height:126px;}
+	/* 1 column portfolio*/
+	#gallery.one_column .portfolio li .featured-thumbnail{float:none; margin:0 0 20px;}
+	#gallery.one_column .portfolio li a.image-wrap {height:227px; width:100%;}
+	/* 2 columns portfolio*/
+	#gallery.two_columns .portfolio li {width:auto; float:none; margin:0 0 20px !important;}
+		#gallery.two_columns .portfolio li a.image-wrap {height:227px;}
+	/* 4 columns portfolio*/
+	#gallery.four_columns .portfolio li {width:170px;}
+		#gallery.four_columns .portfolio li.nomargin{margin-right:0 !important;}
+		#gallery.four_columns .portfolio li a.image-wrap {height:143px;}
+	/*Gallery*/
+	.grid_gallery .gallery_item {width: 190px;}
+	/*Slideshow*/
+	.gallery_post .g_item {width:390px;}
+	.slides_container_slideshow {height:233px; width:390px;}
+	/*Audio*/
+	.single-audio-holder .audiojs .scrubber {width:250px;}
+	/*Video*/
+	.video-holder embed {height: 200px !important;}
+	
+	/*-- Blog ---------------------------------------------------------------*/
+	.simplesocial-box .simplesocial-title{float:none; margin:0 0 7px !important;}
+	.related-posts li {width:40%;}
+	
+	/*-- Single Team --------------------------------------------------------*/
+	.single-team .extra-wrap{overflow:visible;}
+	
+	/*-- 404 ----------------------------------------------------------------*/
+	.error404-num {padding-bottom:30px; margin-bottom:30px; border-bottom:1px solid #eaeded;}
+	
+	/*-- Widgets ------------------------------------------------------------*/
+	/*Post Cycle */
+	#slides .cycle_item, #slides .item, #slides .testi_item{width:420px;}
+	
+	/*-- Shortcodes -------------------------------------------------------*/
+	.tabs .tab-menu li {margin: 0 0 10px; width:50%;}
+		.tabs .tab-menu a {padding: 10px 10px; margin-right:5px;}
+	.recent-posts.recent-news li{float:none; width:auto; margin:0 0 30px;}
+	.recent-posts.our-team li{width:170px;}
+		.recent-posts.our-team li.nomargin{margin-right:20px !important;}
+		.recent-posts.our-team li.even{margin-right:0 !important;}
+	.recent-posts.solutions li{width:170px;}
+		.recent-posts.solutions li.nomargin{margin-right:20px !important;}
+		.recent-posts.solutions li.even{margin-right:0 !important;}
+	
+	/*-- Forms ----------------------------------------------------------*/
+	#commentform input[type="text"], .wpcf7-form input[type="text"]{width:255px;}
+	#commentform textarea, .wpcf7-form textarea {width:390px;}
+	
+	/*-- Footer --------------------------------------------------------*/
+	nav.footer-nav {float:none; margin-bottom:10px;}
+	#footer-text {float:none;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

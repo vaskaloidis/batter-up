@@ -127,7 +127,7 @@ p{margin-bottom:20px;}
 	z-index:99;
 	padding:50px 0 0;
 	margin-bottom:10px;
-	border-bottom:10px solid #bf3939;
+	border-bottom:10px solid #396CA9;
 }
 
 /* Logo */
@@ -144,7 +144,7 @@ p{margin-bottom:20px;}
 	float:left;
 	display:block;
 	font: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color:#f79191;
+	color:#396CA9;
 	text-transform:uppercase;
 	border-left:1px solid #f47171;
 	margin-top:5px;
@@ -178,7 +178,7 @@ nav.primary {
 			.sf-menu > li > a{
 				display:block;
 				padding-bottom:41px;
-				background:url(images/menu-hover.gif) center -999em no-repeat;
+				/*background:url(images/menu-hover.gif) center -999em no-repeat;*/
 				overflow:hidden;
 			}
 				.sf-menu > li.sfHover > a, .sf-menu > li > a:hover, .sf-menu > li.current-menu-item > a{
@@ -1478,5 +1478,5 @@ form small {font:inherit; color:#8b8b8b;}
 	overflow:hidden;
 	background:url(images/totop.png) 0 0 no-repeat;
 	cursor:pointer;
+	background-position:0 -51px;
 }
-	#back-top:hover{background-position:0 -51px;}

@@ -99,7 +99,7 @@ html[xmlns] .slides {display: block;}
 		}
 		.flex-direction-nav li .next {background-image: url(../images/slider-next.png);}
 		.flex-direction-nav li .prev {background-image: url(../images/slider-prev.png);}
-		.flex-direction-nav li a:hover{background-position:0 0;}
+		.flex-direction-nav li a{background-position:0 0;}
 		.flex-direction-nav li .disabled {background-position:0 0; cursor: default;}
 
 /* Control Nav */
